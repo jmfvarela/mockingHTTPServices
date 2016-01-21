@@ -19,7 +19,7 @@ Start the server for colecting data (port 1090) or mocking (por 1080):
 node start_mockserver
 ```
 
-# Collecting data
+# Collecting data with proxy server
 Set proxy in your browser to localhost:1090.
 
 Navigate with your browser over the resources to collect. Examples:
@@ -49,16 +49,16 @@ mockServerClient("localhost", 1080).mockAnyResponse(
 
 View example in `mockserverclient.js`
 
-# Using mocks
-Import mocks:
+# Using mocks with mock server
+Import mocks in server:
 ```
 node mockserverclient
 ```
-Test the results. For example with your browser:
+Test the results. For example open in your browser:
 * [http://localhost:1080/data/2.5/weather?q=Seville,Sp&appid=2de143494c0b295cca9337e1e96b00e01](http://localhost:1080/data/2.5/weather?q=Seville,Sp&appid=2de143494c0b295cca9337e1e96b00e01)
 * [https://localhost:1080/w/api.php?format=json&action=query&titles=mock&prop=revisions&rvprop=content](https://localhost:1080/w/api.php?format=json&action=query&titles=mock&prop=revisions&rvprop=content)
 
-You should see the responses before.
+You should see the same responses as before.
 
 # To do
 * Exception message with Certification Authorities during the server execution, but it seems not to affect operation.
