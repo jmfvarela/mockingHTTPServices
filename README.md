@@ -8,11 +8,12 @@ Tested in Windows.
 
 # Installing
 ```
+cd mockserver-utilities
 npm install mockserver-grunt --save-dev
 npm install mockserver-client 
 ```
 
-# Starting
+# Starting server
 Start the server for colecting data (port 1090) or mocking (por 1080):
 ```
 node start_mockserver
