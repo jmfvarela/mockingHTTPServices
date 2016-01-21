@@ -17,8 +17,8 @@ node start_mockserver
 Set proxy in your browser to localhost:1090.
 
 Navigate with your browser over the resources to collect. For example:
-http://api.openweathermap.org/data/2.5/weather?q=Seville,Sp&appid=2de143494c0b295cca9337e1e96b00e0
-https://en.wikipedia.org/w/api.php?format=json&action=query&titles=mock&prop=revisions&rvprop=content
+* http://api.openweathermap.org/data/2.5/weather?q=Seville,Sp&appid=2de143494c0b295cca9337e1e96b00e0
+* https://en.wikipedia.org/w/api.php?format=json&action=query&titles=mock&prop=revisions&rvprop=content
 
 If you are going to use HTTP, you can install the server certificate 'CertificateAuthorityCertificate.pem' into the "certification authorities" in the browser.
 
@@ -49,8 +49,8 @@ Import mocks executing:
 node mockserverclient
 ```
 Test the results. For example with your browser:
-http://localhost:1080/data/2.5/weather?q=Seville,Sp&appid=2de143494c0b295cca9337e1e96b00e01
-https://localhost:1080/w/api.php?format=json&action=query&titles=mock&prop=revisions&rvprop=content
+* http://localhost:1080/data/2.5/weather?q=Seville,Sp&appid=2de143494c0b295cca9337e1e96b00e01
+* https://localhost:1080/w/api.php?format=json&action=query&titles=mock&prop=revisions&rvprop=content
 
 # Todo
 * Exception message with Certification Authorities during the server execution, but it seems that does not affect operation.
