@@ -1,4 +1,4 @@
-Proof of concept: mocking HTTP services.
+Proof of concept: mocking HTTP services with MockServer.
 
 Tested in Windows.
 
