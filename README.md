@@ -1,4 +1,4 @@
-# Requeriments
+# Requirements
 * JDK
 * Node.js
 
@@ -20,7 +20,7 @@ Navigate with your browser over the resources to collect. For example:
 * http://api.openweathermap.org/data/2.5/weather?q=Seville,Sp&appid=2de143494c0b295cca9337e1e96b00e0
 * https://en.wikipedia.org/w/api.php?format=json&action=query&titles=mock&prop=revisions&rvprop=content
 
-If you are going to use HTTP, you can install the server certificate 'CertificateAuthorityCertificate.pem' into the "certification authorities" in the browser.
+If you are going to use HTTPS, you can install the server certificate 'CertificateAuthorityCertificate.pem' into the "Certification Authorities" in the browser.
 
 Capture logs executing:
 ```
