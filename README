@@ -1,10 +1,10 @@
-== Requeriments ==
+# Requeriments
 
 * JDK
 * Node.js
 
 
-== Installing ==
+# Installing
 
 npm install mockserver-grunt --save-dev
 
@@ -12,13 +12,13 @@ npm install mockserver-client
 
 
 
-== Starting ==
+# Starting
 
 node start_mockserver
 
 
 
-== Collecting data: ==
+# Collecting data
 
 Set proxy in your browser to localhost:1090.
 
@@ -33,7 +33,7 @@ node dumpToLogs
 
 
 
-== Configuring mocks ==
+# Configuring mocks
 
 * Create new mock extracting fields (httpRequest, httpResponse, times, timeToLive) from mockserver_request.log in the format:
 
@@ -52,7 +52,7 @@ Example: mockserverclient.js
 
 
 
-== Using mocks ==
+# Using mocks
 
 Import mocks executing:
 node mockserverclient
@@ -63,5 +63,6 @@ https://localhost:1080/w/api.php?format=json&action=query&titles=mock&prop=revis
 
 
 
-== Todo ==
+# Todo
+* Exception message with Certification Authorities during the server execution, but it seems that does not affect operation.
 
